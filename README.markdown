@@ -67,3 +67,10 @@ $message = GELFMessage Object
 )
 ```
 
+Notes
+-----
+
+[2012-04-05] My `composer.json` is pointing to my fork of gelf-php at http://github.com/msabramo/gelf-php.
+If [my pull request](https://github.com/Graylog2/gelf-php/pull/9) is accepted into [the official gelf-php]
+(https://github.com/Graylog2/gelf-php), then this can be changed to
+https://github.com/Graylog2/gelf-php
