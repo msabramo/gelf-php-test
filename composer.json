@@ -1,0 +1,19 @@
+{
+    "name": "msabramo/gelf-php-test",
+    "description": "Testing out the gelf-php library for Graylog2",
+    "authors": [
+        {
+            "name": "Marc Abramowitz",
+            "email": "marc@marc-abramowitz.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/msabramo/gelf-php"
+        }
+    ],
+    "require": {
+        "graylog2/gelf-php": "dev-add-composer-support"
+    }
+}
