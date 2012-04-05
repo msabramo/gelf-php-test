@@ -21,3 +21,49 @@ and it will:
 
 * invoke `php test.php` to illustrate thtat gelf-php is loaded properly
 
+
+Sample invocation
+-----------------
+
+```
+$ make test
+curl -s http://getcomposer.org/installer | php
+#!/usr/bin/env php
+All settings correct for using Composer
+
+Composer successfully installed to: /private/tmp/t/gelf-php-test/composer.phar
+Use it: php composer.phar
+php composer.phar install
+Installing from lock file                                                       
+  - Package graylog2/gelf-php (dev-add-composer-support)
+    Cloning 3000caece79336bbaca1945bba26ab47ecc2a4b9
+
+Generating autoload files
+php test.php
+$publisher = GELFMessagePublisher Object
+(
+    [hostname:protected] => 172.16.22.30
+    [port:protected] => 12201
+    [chunkSize:protected] => 1420
+)
+
+$message = GELFMessage Object
+(
+    [version:GELFMessage:private] => 1.0
+    [timestamp:GELFMessage:private] => 
+    [shortMessage:GELFMessage:private] => something is broken.
+    [fullMessage:GELFMessage:private] => lol full message!
+    [facility:GELFMessage:private] => 
+    [host:GELFMessage:private] => somehost
+    [level:GELFMessage:private] => 2
+    [file:GELFMessage:private] => /var/www/example.php
+    [line:GELFMessage:private] => 1337
+    [data:GELFMessage:private] => Array
+        (
+            [_something] => foo
+            [_something_else] => bar
+        )
+
+)
+```
+
