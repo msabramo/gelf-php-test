@@ -4,7 +4,7 @@
         {
             "package": "graylog2/gelf-php",
             "version": "dev-add-composer-support",
-            "source-reference": "3000caece79336bbaca1945bba26ab47ecc2a4b9"
+            "source-reference": "aeebf6dd8e6dffcfc4c813e933a71482ee316331"
         }
     ],
     "aliases": []
