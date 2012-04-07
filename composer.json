@@ -14,6 +14,6 @@
         }
     ],
     "require": {
-        "graylog2/gelf-php": "dev-add-composer-support"
+        "graylog2/gelf-php": "dev-composer-classmap"
     }
 }

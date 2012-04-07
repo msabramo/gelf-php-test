@@ -1,10 +1,10 @@
 {
-    "hash": "9ccf7de3984dffce89dd7bab5d633242",
+    "hash": "0c1a5efa30ec569639c3ab9f9981c6cf",
     "packages": [
         {
             "package": "graylog2/gelf-php",
-            "version": "dev-add-composer-support",
-            "source-reference": "aeebf6dd8e6dffcfc4c813e933a71482ee316331"
+            "version": "dev-composer_classmap",
+            "source-reference": "578d19b8af979c6d45acf64af43fa91b15015931"
         }
     ],
     "aliases": []
