@@ -10,10 +10,10 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "http://github.com/msabramo/gelf-php"
+            "url": "http://github.com/Graylog2/gelf-php"
         }
     ],
     "require": {
-        "graylog2/gelf-php": "dev-add-composer-support"
+        "graylog2/gelf-php": "dev-master"
     }
 }
